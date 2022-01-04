@@ -1,0 +1,398 @@
+*{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #090c15;
+}
+header{
+    border: 2px solid red;
+    background-color: #233056;
+    height: 6rem;
+}
+.a1,.a2,.a3{
+    padding: 0.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: blanchedalmond;
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    top: 2.7rem;
+    font-size: 21px;
+}
+#logo{
+    width: 5rem;
+    position: relative;
+    border-radius: 44%;
+    top: 0.5rem;
+    left: 30rem;
+}
+#headline{
+    display: inline-block;
+    color: #fff;;
+    position: relative;
+    left: 15rem;
+    font-size: xxx-large;
+    top: 0rem;
+}
+
+#this,a:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    border: 2px solid greenyellow;
+    background-color: #233056;
+    text-align: center;
+}
+.container{
+    display: inline-block;
+    
+}
+footer .container .container1 img{
+    width: 0.9rem;
+    border-radius: 7rem;
+    position: relative;
+    top: 0.2rem;
+}
+.container p{
+    display: inline-block;
+    color: white;
+}
+.container1,.container2{
+    display: inline-block;
+    
+}
+.main{
+    border: 2px solid white;
+}
+.main1 p{    
+    border: 2px solid darkcyan;
+    color: white;
+    position: relative;
+    display: inline-block;
+    top: -2rem;
+    width: 17rem;
+    text-align: justify;
+    left: 18rem;
+}
+.main img{
+    width: 7rem;
+    position: relative;
+    left: 4rem;
+    top: 0.5rem;
+    border-radius: 1rem;
+}
+.main2 h1 a{
+    font-size: xxx-large;
+    text-decoration: none;
+    color: wheat;
+    position: relative;
+    top: 3.9rem;
+    border-radius: 5rem;
+    background-color: #026e00;
+}
+.main2 {
+    text-align: center;
+    height: 9rem;
+}
+.main2 h1 a:hover,.main1 p a:hover{
+    background-color: rgb(31, 30, 30);
+}
+.main1 p a{
+    text-decoration: none;
+    color:rgb(235, 215, 215);
+}
+.main3 {
+    color: white;
+    display: inline-block;
+}
+.main3 p{
+    display: inline-block;
+    position: relative;
+    left: 1.9rem;
+}
+.main3 img{
+    width: 6.2rem;
+    position: relative;
+    top: 0.5rem;
+    border-radius: 7rem;
+    padding: 2rem;
+    left: -2rem;
+}
+.main3 h3{
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+#btn{
+    width: 2rem;
+    position: relative;
+    left: 0rem;
+    top: -4rem;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#backbtn{
+    width: 2rem;
+    position: relative;
+    left: 0rem;
+    display: inline;
+    top: -4rem;
+}
+#backbtn:hover{
+    cursor: pointer;
+}
+.a1::after,.a2::after{
+    content: "|";
+    padding: 0 0.3em 0 1.1em;
+    color: #999;
+}
+#theme,#the{
+    filter: brightness(0) invert(1);
+    width: 1.1rem;
+    position: relative;
+    left: 25rem;
+    top: 2.7rem;
+    cursor: pointer;
+}
+#dark{
+    width: 1.1rem;
+    position: relative;
+    left: 25rem;
+    top: 2.7rem;
+    cursor: pointer;
+}
+/* @keyframes anim_body {
+    from{
+        background-color: #090c15;
+    }
+    to{
+        background-color: #fff;
+    }
+}
+@keyframes anim_header {
+    from{
+        background-color: #233056;
+    }
+    to{
+        background-color: #333;
+        
+    }
+}
+
+@keyframes anim_footer {
+    from{
+        background-color: #233056;
+    }
+    to{
+        background-color: #333;
+    }
+}
+
+@keyframes anim_main1_p {
+    from{
+        color: white;
+    }
+    to{
+        color: #333;
+    }
+}
+@keyframes anim_main1_h1_a {
+    from{
+        color: wheat;
+    }
+    to{
+        color:     #fff;
+    }
+}
+@keyframes anim_main3_p {
+    from{
+        color: white;
+    }
+    to{
+        color: #333;
+    }
+}
+@keyframes anim_h3_3 {
+    from{
+        color: white;
+    }
+    to{
+        color: #333;
+    }
+}
+@keyframes animation {
+    from{
+        color: white;
+    }
+    to{
+        color: #333;
+    }
+}
+/* ----------------------- */
+/* @kefryframes rev_anim_body {
+    om{
+        background-color: #fff;
+    }
+    to{
+        background-color: #090c15;
+    }
+}
+@keyframes rev_anim_header {
+    from{
+        background-color: #333;
+    }
+    to{
+        background-color: #233056;
+    }
+}
+
+@keyframes rev_anim_footer {
+    from{
+        background-color: #333;
+    }
+    to{
+        background-color: #233056;
+    }
+}
+
+@keyframes rev_anim_main1_p {
+    from{
+        color: #333;
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes rev_anim_main1_h1_a {
+    from{
+        color:#fff;
+    }
+    to{
+        color: wheat;
+    }
+}
+@keyframes rev_anim_main3_p {
+    from{
+        color: #333;
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes rev_anim_h3_3 {
+    from{
+        color: #333;
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes rev_animation {
+    from{
+        color: #333;
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes anim_wrapper_id {
+    from{
+        background-color: #090c15;
+    }
+    to{
+        background-color: #fff;
+    }
+}
+@keyframes rev_anim_wrapper_id {
+    from{
+        background-color: #fff;
+    }
+    to{
+        background-color: #090c15;
+    }
+}  */
+.theme-h3{
+    color:#333;
+}
+.theme-h-3{
+    color:#333;
+}
+.main1_p_theme{
+    color:#333;
+}
+.image{
+    content: url('dar.webp');
+}
+.theme-header{
+    background-color:#333 ;
+}
+.theme-wrapper_id{
+    background-color: #fff;
+}
+.theme-footer{
+    background-color: #333;
+}
+.theme-main1_p{
+    color:#333;
+}
+.theme-main_id{
+    color:#333;
+}
+.theme_of_main1p{
+    background-color: #333;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+.theme-h3{
+    background-color:#cb2c2c;
+    border-radius: 39rem;
+    color:#333;
+}
+.theme_of_main1p{
+    color:#333;
+}
+.theme-main2-h1-a{
+    color:#fff;
+}
+/* ------------------------ */
+
+/* ////// --Travel-Book--  ///// */
+form{
+    border: 2px solid violet;
+    text-align: center;
+    display: grid;
+    width: 36rem;
+    position: relative;
+    left: 12rem;
+    top: 0rem;
+    padding: 3rem;
+    height: 17rem;
+}
+input{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    border-radius: 5rem;
+    border-top-width: 0.5rem;
+    background-color: #dfd9d9;
+    width: 34rem;
+}
+#submit,#inputsubmit{
+    position: relative;
+    top: 1.5rem;
+    width: 31rem;
+    left: 2.7rem;
+    border-radius: 5rem;
+    background-color: #cb2c2c;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover,#inputsubmit:hover{
+    background-color: red;
+}

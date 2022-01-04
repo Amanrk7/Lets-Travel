@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel/Book</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <header id="header">
+        <a href="travel-image.html" ><img  id="logo" src="trip.jpg" alt="" width="5rem"></a>
+        <p id="headline">Lets Travel</p>
+        <a class="a1" href="home-travel.html">Home</a>
+        <a class="a2" id="this" href="travel-book.html">Book Now</a>
+        <a class="a3"href="travel-About.html">About Us</a>
+        <!-- <img src="brighty.webp" alt="Light" onclick="clicked()" id="theme" width="2em"> -->
+        <img src="brighty.webp" alt="Light" onclick="themeFunction()" id="theme" width="2em">
+    </header>
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <div class="wrapper" id="wrapper_id">
+        <form class="form" action="to book" autocomplete="off">
+            <h3 id="h333" style="color: #fff;width: 34rem;
+            position: relative;
+            color: #fff;
+            left: 1rem;">Fill the respective details to BOOk NOW</h3>
+            <label id="namefield">
+                <input type="text" name="namefield" placeholder="Your Name" required>
+            </label>
+
+            <label id="emailfield">
+                <input type="Email" name="emailfield" placeholder="Email" required>
+            </label>
+
+            <label id="agefield">
+                <input type="number" name="agefield" placeholder="Age" min="15" max="200" required>
+            </label>
+            <label id="phonenumberfield">
+                <input type="number" min="999999999" max="1000000000" name="phonenumberfield" placeholder="Phone Number"
+                    required>
+            </label>
+
+            <label id="Cityfield">
+                <input type="text" name="Cityfield" placeholder="City" required>
+            </label>
+
+            <label id="Landmarkfield">
+                <input type="text" name="Landmarkfield" placeholder="LandMark" required>
+            </label>
+            <!-- <button id="submit"><input  type="submit"></button> -->
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------- -->
+    <footer id="footer">
+        <div class="container">
+            <div class="container1">
+                <p>Connect With Us :&nbsp;&nbsp;</p>
+                <a href="https://twitter.com/AmanRK6"><img src="twitter.png" alt="Gmail" width="4rem"></a>
+                <a href="https://www.instagram.com/100a.man/?hl=en"><img src="insta.jpg" alt="Instagram"
+                        width="4rem"></a>
+                <a href="https://www.facebook.com/officialscottadkins"><img src="face.png" alt="Facebook"
+                        width="4rem"></a>
+            </div>
+            <div class="container2">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact
+                    Us&nbsp;:&nbsp;&nbsp;&nbsp;amanrk0011@gmail.com &nbsp;,&nbsp;+91 9990253738</p>
+            </div>
+            <div class="container3">
+                <p>All rights reserved , @LetsTravel </p>
+            </div>
+        </div>
+    </footer>
+    <script src="travel.js"></script>
+</body>
+
+</html>
