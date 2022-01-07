@@ -485,6 +485,7 @@ input{
     }
     #h333{
         width: 10rem;
+        left: 1rem;
     }
 }
 @media (min-width:376px) and (max-width:425px) {
@@ -556,4 +557,11 @@ input{
     #theme, #the {
         left: 11rem;
     }    
+    #submit,#inputsubmit{
+        top: 0.5rem;
+    }
+    #h333{
+        width: 31rem;
+    }
+    
 }
