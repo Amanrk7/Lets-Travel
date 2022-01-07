@@ -493,6 +493,24 @@ input{
         width: 10rem;
         left: 1rem;
     }
+    header {
+        height: 9rem;
+    }
+    .main img{
+       display: none;
+    }
+    .main1 p{
+       top: 3rem;
+       width: 13rem;
+       left: 2rem;
+    }
+    #backbtn,#btn{
+       display: none;
+    }
+    header {
+      height: 8rem;
+    }
+    
 }
 @media (min-width:376px) and (max-width:425px) {
     form {
@@ -518,6 +536,23 @@ input{
     }
     #theme,#the{
         left: 2rem;
+    }
+        header {
+        height: 9rem;
+    }
+    .main img{
+       display: none;
+    }
+    .main1 p{
+       top: 3rem;
+       width: 13rem;
+       left: 2rem;
+    }
+    #backbtn,#btn{
+       display: none;
+    }
+    header {
+      height: 8rem;
     }
 }
 @media (min-width:426px) and (max-width:768px) {
@@ -553,7 +588,22 @@ input{
     .container{
         margin-top: 2rem;
     }
-
+    .main1 p{
+        top: 0rem;
+        width: 13rem;
+    }
+    .main3 p{
+        left: -5.1rem;
+    }
+    #backbtn{
+       left: -2rem;
+       top: 0rem;
+    }
+    #btn{
+        left: 27rem;
+        top: -6rem;
+    }
+    
 }
 @media (min-width:769px) and (max-width:1024px) {
     form{
