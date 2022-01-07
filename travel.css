@@ -455,3 +455,101 @@ input{
         left: 12rem;
     }
 }   
+@media (min-width:321px) and (max-width:375px) {
+    form {
+        left: 0rem;
+        width: 9rem;
+    }
+    input {
+        width: 10rem;
+        margin-left: 0rem;
+    }
+    #submit, #inputsubmit {
+        width: 10rem;
+        left: 0.7rem;
+        top: 1rem;
+    }    
+    #the, #theme {
+        left: 0rem;
+        top: 1rem;
+    }
+    #logo {
+        left: 10rem;
+    }
+    #headline {
+        left: -5rem;
+    }
+    #h333{
+        width: 10rem;
+    }
+}
+@media (min-width:376px) and (max-width:425px) {
+    form {
+        left: 0rem;
+        width: 12rem;
+    }   
+    #headline {
+        left: -3rem;
+    }
+    #logo {
+        left: 12rem;
+    }
+    #h333{
+        width: 10rem;
+    }
+    input{
+        width: 6rem;
+    }
+    #submit,#inputsubmit{
+        top: 0.5rem;
+        width: 8rem;
+        left: 1.7rem;
+    }
+    #theme,#the{
+        left: 2rem;
+    }
+}
+@media (min-width:426px) and (max-width:768px) {
+    #headline{
+        left: 6rem;
+    }
+    #logo{
+        left: 22rem;
+    }
+    input{
+        width: 15rem;
+        margin-left: 0rem;
+    }
+    .a1,.a2,.a3{
+        left: 0%;
+    }
+    #the,#theme{
+        left: 1rem;
+    }
+    #submit,#inputsubmit{
+        width: 11rem;
+        left: 1.7rem;
+        top: 1rem;
+    }
+    #h333{
+        left: 1rem;
+        width: 10rem;
+    }
+    form{
+        left: 6rem;
+        width: 12rem;
+    }
+    .container{
+        margin-top: 2rem;
+    }
+
+}
+@media (min-width:769px) and (max-width:1024px) {
+    form{
+        width: 32rem;
+        left: 0rem;
+    }
+    #theme, #the {
+        left: 11rem;
+    }    
+}
