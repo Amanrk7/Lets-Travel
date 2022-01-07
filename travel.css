@@ -389,3 +389,69 @@ input{
 #submit:hover,#inputsubmit:hover{
     background-color: red;
 }
+@media (max-width : 320px) {
+    #headline{
+        left:2rem;
+    }
+    .main img{
+        display: none;
+    }
+    .main1 p{
+        left: 0.5rem;
+        top: 3rem;
+        width: 12rem
+    }
+    .main2 h1 a {
+        top: 6.9rem; 
+    }
+    #backbtn{
+        display: none;
+    }
+    #btn{
+        display: none;
+    } 
+    #logo {
+        left: 5rem;
+    }
+    #the,#theme{
+        left: 7.7rem;
+        top: -4rem;
+    }
+    .main3 h3{
+            left: 0.5rem;
+    }
+    .main3 p{
+        left: 0.5rem;
+    }
+     .a1,.a2,.a3{ 
+        left: 4%;
+        top: -0.3rem;
+        font-size: 18px;
+    }
+    .container{
+        margin-top: 2rem;
+    }
+    .main3{
+        margin-top: 3rem;
+    }
+    form{
+        width: 21rem;
+        left: -14rem;
+    }
+    input{
+        width: 11rem;
+        left: 6.5rem;
+    }
+    #submit,#inputsubmit{
+        top: 1.2rem;
+        width: 9rem;
+        left: 12.6em;
+    }
+    input{
+        width: 9rem;
+    }
+    #h333{
+        width: 10rem;
+        left: 12rem;
+    }
+}   
