@@ -414,7 +414,7 @@ input{
         left: 5rem;
     }
     #the,#theme{
-        left: 7.7rem;
+        left: 11.7rem;
         top: -4rem;
     }
     .main3 h3{
@@ -426,7 +426,7 @@ input{
      .a1,.a2,.a3{ 
         left: 4%;
         top: -0.3rem;
-        font-size: 18px;
+        font-size: 19px;
     }
     .container{
         margin-top: 2rem;
@@ -451,9 +451,13 @@ input{
         width: 9rem;
     }
     #h333{
-        width: 10rem;
+        width: 11rem;
         left: 12rem;
     }
+    header{
+        height: 8rem;
+    }    
+    
 }   
 @media (min-width:321px) and (max-width:375px) {
     form {
