@@ -553,8 +553,8 @@ input{
     }
     .main1 p{
        top: 3rem;
-       width: 12rem;
-       left: 1rem;
+       width: 11rem;
+       left: 0.9rem;
     }
     #backbtn,#btn{
        display: none;
