@@ -160,6 +160,9 @@ footer .container .container1 img{
     top: 2.7rem;
     cursor: pointer;
 }
+#git{
+    filter: brightness(0) invert(1);
+}    
 #dark{
     width: 1.1rem;
     position: relative;
