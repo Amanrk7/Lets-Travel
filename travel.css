@@ -463,7 +463,10 @@ input{
     header{
         height: 8rem;
     }    
-    
+    .main3 h3 {
+       left: 0.1rem;
+       width: 13rem;
+    }
 }   
 @media (min-width:321px) and (max-width:375px) {
     form {
@@ -510,7 +513,10 @@ input{
     header {
       height: 8rem;
     }
-    
+    .main3 h3 {
+      left: 2rem;
+      width: 13rem;
+    }
 }
 @media (min-width:376px) and (max-width:425px) {
     form {
@@ -554,6 +560,9 @@ input{
     header {
       height: 8rem;
     }
+    .main3 h3 {
+      width: 13rem;
+    }
 }
 @media (min-width:426px) and (max-width:768px) {
     #headline{
@@ -591,19 +600,31 @@ input{
     .main1 p{
         top: 0rem;
         width: 13rem;
+        left: 10rem;
     }
     .main3 p{
-        left: -5.1rem;
+        left: 0.3rem;
+        width: 1.2rem;
     }
     #backbtn{
        left: -2rem;
        top: 0rem;
+       width: 1.2rem;
     }
     #btn{
-        left: 27rem;
+        left: 25rem;
         top: -6rem;
+        width: 1.2rem;
     }
-    
+    .main3 h3 {
+       left: 1rem;
+       width: 14rem;
+   }
+   .main3 img {
+       width: 1.2rem;
+       left: 0.3rem;
+   }
+   
 }
 @media (min-width:769px) and (max-width:1024px) {
     form{
@@ -619,5 +640,20 @@ input{
     #h333{
         width: 31rem;
     }
+    .main1 p {
+       left: 12rem;
+   }
+   .main3 img {
+       width: 1.2rem;
+       left: 0rem;
+   } 
+   #backbtn {
+       width: 1.3rem;
+       top: -1rem;
+  } 
+  #btn {
+       width: 1.3rem;
+       top: -1rem;
+  }  
     
 }
