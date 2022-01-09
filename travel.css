@@ -486,8 +486,9 @@ input{
         left: -13rem;
         top: 1rem;
     }
-    #logo {
-        left: 10rem;
+   #logo {
+        left: 0rem;
+        top: 3rem;
     }
     #headline {
         left: -5rem;
@@ -527,7 +528,8 @@ input{
         left: -3rem;
     }
     #logo {
-        left: 12rem;
+       left: 2rem;
+       top: 3rem;
     }
     #h333{
         width: 10rem;
@@ -569,7 +571,7 @@ input{
         left: 6rem;
     }
     #logo{
-        left: 22rem;
+        left: 20.3rem;
     }
     input{
         width: 15rem;
@@ -630,6 +632,9 @@ input{
     form{
         width: 32rem;
         left: 0rem;
+    }
+    #logo{
+       left: 29.3rem;
     }
     #theme, #the {
         left: -28rem;
