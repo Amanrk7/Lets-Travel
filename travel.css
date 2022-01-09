@@ -403,7 +403,7 @@ input{
         display: none;
     }
     .main1 p{
-        left: 0.5rem;
+        left: 0.4rem;
         top: 3rem;
         width: 8rem;
     }
@@ -506,7 +506,7 @@ input{
     .main1 p{
        top: 3rem;
        width: 9rem;
-       left: 2rem;
+       left: 0.5rem;
     }
     #backbtn,#btn{
        display: none;
@@ -554,7 +554,7 @@ input{
     .main1 p{
        top: 3rem;
        width: 11rem;
-       left: 0.9rem;
+       left: 0.3rem;
     }
     #backbtn,#btn{
        display: none;
@@ -602,7 +602,7 @@ input{
     .main1 p{
         top: 0rem;
         width: 13rem;
-        left: 6rem;
+        left: 4.5rem;
     }
     .main3 p{
         left: -1.7rem;
@@ -646,7 +646,7 @@ input{
         width: 31rem;
     }
     .main1 p {
-       left: 12rem;
+       left: 7rem;
    }
    .main3 img {
        width: 1.2rem;
