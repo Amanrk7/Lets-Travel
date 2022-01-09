@@ -405,7 +405,7 @@ input{
     .main1 p{
         left: 0.5rem;
         top: 3rem;
-        width: 12rem
+        width: 8rem;
     }
     .main2 h1 a {
         top: 6.9rem; 
@@ -483,19 +483,19 @@ input{
         top: 1rem;
     }    
     #the, #theme {
-        left: -13rem;
-        top: 1rem;
+        left: -14rem;
+        top: 3rem;
     }
    #logo {
-        left: 0rem;
-        top: 3rem;
+        left: 10rem;
+        top: 1rem;
     }
     #headline {
         left: -5rem;
     }
     #h333{
         width: 10rem;
-        left: 1rem;
+        left: 0rem;
     }
     header {
         height: 9rem;
@@ -505,7 +505,7 @@ input{
     }
     .main1 p{
        top: 3rem;
-       width: 13rem;
+       width: 9rem;
        left: 2rem;
     }
     #backbtn,#btn{
@@ -553,8 +553,8 @@ input{
     }
     .main1 p{
        top: 3rem;
-       width: 13rem;
-       left: 2rem;
+       width: 12rem;
+       left: 1rem;
     }
     #backbtn,#btn{
        display: none;
