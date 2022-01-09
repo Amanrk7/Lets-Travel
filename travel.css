@@ -600,11 +600,11 @@ input{
     .main1 p{
         top: 0rem;
         width: 13rem;
-        left: 10rem;
+        left: 6rem;
     }
     .main3 p{
-        left: 0.3rem;
-        width: 1.2rem;
+        left: -1.7rem;
+        width: 4.2rem;
     }
     #backbtn{
        left: -2rem;
@@ -612,7 +612,7 @@ input{
        width: 1.2rem;
     }
     #btn{
-        left: 25rem;
+        left: 0rem;
         top: -6rem;
         width: 1.2rem;
     }
