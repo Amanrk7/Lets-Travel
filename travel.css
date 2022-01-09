@@ -470,7 +470,7 @@ input{
 }   
 @media (min-width:321px) and (max-width:375px) {
     form {
-        left: 0rem;
+        left: -1rem;
         width: 9rem;
     }
     input {
@@ -521,7 +521,7 @@ input{
 }
 @media (min-width:376px) and (max-width:425px) {
     form {
-        left: 0rem;
+        left: -1rem;
         width: 12rem;
     }   
     #headline {
@@ -593,7 +593,7 @@ input{
         width: 10rem;
     }
     form{
-        left: 6rem;
+        left: 4rem;
         width: 12rem;
     }
     .container{
@@ -631,7 +631,7 @@ input{
 @media (min-width:769px) and (max-width:1024px) {
     form{
         width: 32rem;
-        left: 0rem;
+        left: -1rem;
     }
     #logo{
        left: 29.3rem;
